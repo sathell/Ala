@@ -1,0 +1,8 @@
+Options -Indexes
+
+# Usuń rozszerzenie .php z URL:
+# /api/contact  →  /api/contact.php
+# /api/booking  →  /api/booking.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z]+)$ $1.php [L,QSA]
