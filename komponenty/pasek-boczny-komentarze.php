@@ -13,5 +13,5 @@
         <a href="/#opinie">Opinie klientów</a>
         <a href="/#kontakt">Kontakt</a>
     </nav>
-    <?php include __DIR__ . '\formularz-bezplatnej-konsultacji.php'; ?>
+    <?php include __DIR__ . '/formularz-bezplatnej-konsultacji.php'; ?>
 </aside>

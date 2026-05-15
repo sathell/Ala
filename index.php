@@ -508,7 +508,7 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
             </aside>
 
         </div>
-        <?php include __DIR__ . '\komponenty\stopka.php'; ?>
+        <?php include __DIR__ . '/komponenty/stopka.php'; ?>
     </div><!-- /outer -->
 
     <script>var REVIEWS = [

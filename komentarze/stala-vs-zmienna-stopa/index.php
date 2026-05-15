@@ -303,11 +303,11 @@
                 </article>
 
             </main><!-- /content -->
-            <?php include __DIR__ . '\..\..\komponenty\pasek-boczny-komentarze.php'; ?>
+            <?php include __DIR__ . '/../../komponenty/pasek-boczny-komentarze.php'; ?>
         </div><!-- /page -->
     </div><!-- /outer -->
 
-    <?php include __DIR__ . '\..\..\komponenty\stopka.php'; ?>
+    <?php include __DIR__ . '/../../komponenty/stopka.php'; ?>
 
     <!-- KONSULTACJA MODAL -->
     <div id="konsultacja-modal" class="modal-overlay" onclick="handleModalOverlayClick(event)">

@@ -87,7 +87,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"></noscript>
     <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="komentarze/komentarze.css">
+    <link rel="stylesheet" href="/komentarze/komentarze.css">
 </head>
 <body>
 
@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="comments-list">
-                    <a class="comment-item" href="komentarze/kredyt-hipoteczny-krok-po-kroku">
+                    <a class="comment-item" href="/komentarze/kredyt-hipoteczny-krok-po-kroku/">
                         <div class="comment-item-date">30 kwietnia 2026</div>
                         <div class="comment-item-body">
                             <div class="comment-item-title">Kredyt hipoteczny krok po kroku — co sprawdzić zanim pójdziesz do banku?</div>
@@ -118,7 +118,7 @@
                         </div>
                     </a>
 
-                    <a class="comment-item" href="komentarze/rodzinny-kredyt-mieszkaniowy">
+                    <a class="comment-item" href="/komentarze/rodzinny-kredyt-mieszkaniowy/">
                         <div class="comment-item-date">28 kwietnia 2026</div>
                         <div class="comment-item-body">
                             <div class="comment-item-title">Mieszkanie bez wkładu własnego — czym jest Rodzinny Kredyt Mieszkaniowy?</div>
@@ -127,7 +127,7 @@
                         </div>
                     </a>
 
-                    <a class="comment-item" href="komentarze/stala-vs-zmienna-stopa">
+                    <a class="comment-item" href="/komentarze/stala-vs-zmienna-stopa/">
                         <div class="comment-item-date">25 kwietnia 2026</div>
                         <div class="comment-item-body">
                             <div class="comment-item-title">Stała czy zmienna stopa procentowa? Jak wybrać kredyt hipoteczny w 2026 roku</div>
@@ -136,7 +136,7 @@
                         </div>
                     </a>
 
-                    <a class="comment-item" href="komentarze/jak-poprawic-zdolnosc-kredytowa">
+                    <a class="comment-item" href="/komentarze/jak-poprawic-zdolnosc-kredytowa/">
                         <div class="comment-item-date">19 kwietnia 2026</div>
                         <div class="comment-item-body">
                             <div class="comment-item-title">Zdolność kredytowa — jak ją poprawić, zanim złożysz wniosek?</div>
@@ -148,11 +148,11 @@
                 </div>
 
             </main>
-            <?php include __DIR__ . '\..\komponenty\pasek-boczny-komentarze.php'; ?>
+            <?php include __DIR__ . '/../komponenty/pasek-boczny-komentarze.php'; ?>
         </div>
     </div>
 
-    <?php include __DIR__ . '\..\komponenty\stopka.php'; ?>
+    <?php include __DIR__ . '/../komponenty/stopka.php'; ?>
 
 </body>
 </html> 
