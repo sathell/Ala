@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Blokuj katalogi techniczne
+Disallow: /api/
+Disallow: /cgi-bin/
+Disallow: /logs/
+Disallow: /private_html/
+Disallow: /stats/
+
+Sitemap: https://kredyty-koszalin.pl/sitemap.xml
