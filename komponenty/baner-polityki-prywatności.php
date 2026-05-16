@@ -33,43 +33,4 @@
     </div>
 </div>
 
-<script>
-(function () {
-    var COOKIE_KEY = 'am_cookie_consent';
-    function init() {
-        var banner = document.getElementById('cookie-banner');
-        if (!banner) return;
-
-        function setCookie(value) {
-            var d = new Date();
-            d.setFullYear(d.getFullYear() + 1);
-            document.cookie = COOKIE_KEY + '=' + value + '; expires=' + d.toUTCString() + '; path=/; SameSite=Lax';
-        }
-
-        function getCookie() {
-            var match = document.cookie.match(new RegExp('(?:^|; )' + COOKIE_KEY + '=([^;]*)'));
-            return match ? match[1] : null;
-        }
-
-        function hideBanner() {
-            banner.classList.remove('visible');
-            setTimeout(function () { banner.style.display = 'none'; }, 350);
-        }
-
-        if (!getCookie()) {
-            setTimeout(function () { banner.classList.add('visible'); }, 600);
-        }
-
-        var btnAll = document.getElementById('cookie-accept-all');
-        if (btnAll) btnAll.addEventListener('click', function () { setCookie('all'); hideBanner(); });
-        var btnNecessary = document.getElementById('cookie-accept-necessary');
-        if (btnNecessary) btnNecessary.addEventListener('click', function () { setCookie('necessary'); hideBanner(); });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-})();
-</script>
+<script>!function(){var e="am_cookie_consent";function t(){var t=document.getElementById("cookie-banner");if(t){var n;(n=document.cookie.match(new RegExp("(?:^|; )"+e+"=([^;]*)")))&&n[1]||setTimeout(function(){t.classList.add("visible")},600);var o=document.getElementById("cookie-accept-all");o&&o.addEventListener("click",function(){i("all"),a()});var c=document.getElementById("cookie-accept-necessary");c&&c.addEventListener("click",function(){i("necessary"),a()})}function i(t){var n=new Date;n.setFullYear(n.getFullYear()+1),document.cookie=e+"="+t+"; expires="+n.toUTCString()+"; path=/; SameSite=Lax"}function a(){t.classList.remove("visible"),setTimeout(function(){t.style.display="none"},350)}}"loading"===document.readyState?document.addEventListener("DOMContentLoaded",t):t()}();</script>

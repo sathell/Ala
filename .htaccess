@@ -1,0 +1,50 @@
+Options -Indexes
+
+# ===== ROCZNY CACHE DLA ZASOBÓW STATYCZNYCH =====
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Domyślnie: brak cache
+    ExpiresDefault "access plus 0 seconds"
+
+    # Obrazy — 1 rok
+    ExpiresByType image/webp              "access plus 1 year"
+    ExpiresByType image/png               "access plus 1 year"
+    ExpiresByType image/jpeg              "access plus 1 year"
+    ExpiresByType image/gif               "access plus 1 year"
+    ExpiresByType image/svg+xml           "access plus 1 year"
+    ExpiresByType image/x-icon            "access plus 1 year"
+    ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+
+    # CSS i JavaScript — 1 rok
+    ExpiresByType text/css                "access plus 1 year"
+    ExpiresByType application/javascript  "access plus 1 year"
+    ExpiresByType text/javascript         "access plus 1 year"
+
+    # Czcionki — 1 rok
+    ExpiresByType font/woff2              "access plus 1 year"
+    ExpiresByType font/woff               "access plus 1 year"
+    ExpiresByType font/ttf                "access plus 1 year"
+    ExpiresByType application/font-woff   "access plus 1 year"
+    ExpiresByType application/font-woff2  "access plus 1 year"
+
+    # robots.txt i sitemap — 1 dzień
+    ExpiresByType text/plain              "access plus 1 day"
+    ExpiresByType application/xml         "access plus 1 day"
+    ExpiresByType text/xml                "access plus 1 day"
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Zasoby statyczne — 1 rok, immutable
+    <FilesMatch "\.(css|js|webp|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$">
+        Header set Cache-Control "max-age=31536000, public, immutable"
+    </FilesMatch>
+
+    # Strony dynamiczne i błędy — bez cache
+    <FilesMatch "\.(php|shtml)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate"
+        Header set Pragma "no-cache"
+        Header unset ETag
+    </FilesMatch>
+</IfModule>
