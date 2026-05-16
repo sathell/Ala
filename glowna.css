@@ -11,12 +11,26 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .outer {
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
 .sidebar {
     width: 340px;
     min-width: 340px;
     top: 58px;
     height: calc(100vh - 58px);
     padding: 40px 28px;
+}
+
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 100%;
+        min-width: 0;
+    }
 }
 
 .hero {
@@ -334,14 +348,23 @@ h2 {
 }
 
 .reviews-outer {
-    overflow: visible;
+    overflow: hidden;
 }
 
 .reviews-track {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    transition: transform .5s ease;
+    will-change: transform;
+}
+
+.reviews-page {
+    flex: 0 0 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    transition: opacity .5s;
+    align-items: stretch;
 }
 
 .review {
@@ -349,7 +372,6 @@ h2 {
     border: 1px solid var(--sand);
     border-radius: 10px;
     padding: 24px 22px;
-    min-height: var(--review-card-height, auto);
 }
 
 .rev-name {
@@ -900,6 +922,10 @@ h2 {
     transition: all .2s;
 }
 
+@media (max-width: 768px) {
+  .topnav { display: none !important; }
+}
+
 @media (max-width: 1350px) and (min-width: 1201px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
@@ -1013,7 +1039,7 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-    .reviews-track {
+    .reviews-page {
         grid-template-columns: 1fr;
     }
 
@@ -1050,39 +1076,6 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-    #mob-cta {
-        position: fixed !important;
-        top: 12px !important;
-        right: 12px !important;
-        z-index: 999999 !important;
-        background: #7c6455 !important;
-        color: #ffffff !important;
-        border-radius: 10px !important;
-        padding: 9px 14px !important;
-        text-align: center !important;
-        text-decoration: none !important;
-        box-shadow: 0 3px 18px rgba(0, 0, 0, 0.35) !important;
-        line-height: 1.4 !important;
-        display: block !important;
-        font-family: 'Jost', sans-serif !important;
-    }
-
-    #mob-cta span.t1 {
-        display: block !important;
-        font-size: 10px !important;
-        font-weight: 500 !important;
-        letter-spacing: .08em !important;
-        text-transform: uppercase !important;
-        color: rgba(255, 255, 255, 0.92) !important;
-    }
-
-    #mob-cta span.t2 {
-        display: block !important;
-        font-size: 15px !important;
-        font-weight: 600 !important;
-        color: #ffffff !important;
-    }
-
     #mob-blog {
         position: fixed !important;
         top: 12px !important;
@@ -1112,10 +1105,6 @@ h2 {
 }
 
 @media screen and (min-width: 1201px) {
-    #mob-cta {
-        display: none !important;
-    }
-
     #mob-blog {
         display: none !important;
     }

@@ -28,6 +28,7 @@ try {
 //  GET — zwraca listę zajętych slotów (przyszłych)
 // ════════════════════════════════════════════════
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    header('Cache-Control: public, max-age=300'); // 5 minut — sloty zmieniają się rzadko
     $stmt = $pdo->query(
         "SELECT slot FROM bookings
          WHERE slot >= strftime('%Y-%m-%d %H:00', 'now', 'localtime')

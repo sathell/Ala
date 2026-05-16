@@ -155,14 +155,16 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
     <!-- Asynchroniczne ładowanie fontów: media=print powoduje, że plik CSS nie blokuje renderowania;
          onload zmienia media na 'all' po pobraniu, a <noscript> zapewnia fallback -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=optional"
         media="print" onload="this.media='all'">
     <noscript>
         <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=optional">
     </noscript>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./glowna.css">
+    <link rel="preload" href="./main.css?v=2" as="style">
+    <link rel="preload" href="./glowna.css?v=2" as="style">
+    <link rel="stylesheet" href="./main.css?v=2">
+    <link rel="stylesheet" href="./glowna.css?v=2">
 </head>
 
 <body>
@@ -217,7 +219,7 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
                             <div class="hero-subtitle">Dyrektor placówki partnerskiej mFinanse</div>
                         </div>
                         <div class="hero-photo">
-                            <img src="/media/Alicja-Muryn-front.png" alt="Alicja Muryn">
+                            <img src="/media/Alicja-Muryn-front.webp" fetchpriority="high" alt="Alicja Muryn" width="235" height="235">
                         </div>
                     </div>
                     <div class="hero-body">
@@ -245,7 +247,7 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
                     <div class="rule"></div>
                     <div class="about">
                         <div class="photo">
-                            <img src="/media/Alicja-Muryn-side.png" alt="Alicja Muryn">
+                            <img src="/media/Alicja-Muryn-side.webp" fetchpriority="high" alt="Alicja Muryn" width="200" height="260">
                         </div>
                         <div>
                             <p>Nazywam się <strong>Alicja Muryn</strong>. Od ponad 20 lat pomagam klientom w
@@ -291,34 +293,34 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
                         </div>
                         <div class="card">
                             <div class="card-ico"><img src="media/briefcase-svgrepo-com.svg" alt="Kredyt dla firm"
-                                    width="35"></div>
+                                    width="35" height="35"></div>
                             <h3>Kredyt dla firm</h3>
                             <p>Finansowanie działalności, zakup sprzętu, linia kredytowa — pomagam przedsiębiorcom w
                                 każdej branży i na każdym etapie.</p>
                         </div>
                         <div class="card">
                             <div class="card-ico"><img src="media/recycle-svgrepo-com.svg" alt="Refinansowanie"
-                                    width="35"></div>
+                                    width="35" height="35"></div>
                             <h3>Refinansowanie</h3>
                             <p>Masz już kredyt? Sprawdzę, czy można obniżyć ratę lub przenieść zobowiązanie do banku z
                                 lepszymi warunkami.</p>
                         </div>
                         <div class="card">
                             <div class="card-ico"><img src="media/analysis-analytics-data-svgrepo-com.svg"
-                                    alt="Analiza zdolności" width="35"></div>
+                                    alt="Analiza zdolności" width="35" height="35"></div>
                             <h3>Analiza zdolności</h3>
                             <p>Przed złożeniem wniosku sprawdzam Twoją zdolność kredytową i podpowiem, jak ją poprawić —
                                 bezpłatnie i bez zobowiązań.</p>
                         </div>
                         <div class="card">
                             <div class="card-ico"><img src="media/money-bag-change-money-capital-svgrepo-com.svg"
-                                    alt="Kredyty gotówkowe" width="35"></div>
+                                    alt="Kredyty gotówkowe" width="35" height="35"></div>
                             <h3>Kredyty gotówkowe</h3>
                             <p>Szybka gotówka na dowolny cel — porównam oferty banków i znajdę najniższe oprocentowanie
                                 dopasowane do Twojej zdolności kredytowej.</p>
                         </div>
                         <div class="card">
-                            <div class="card-ico"><img src="media/house-assemble.png" alt="Domy modułowe" width="35">
+                            <div class="card-ico"><img src="media/house-assemble.svg" alt="Domy modułowe" width="35" height="35">
                             </div>
                             <h3>Domy modułowe</h3>
                             <p>Finansowanie nowoczesnych domów modułowych — doradzę w wyborze odpowiedniego kredytu na
@@ -508,8 +510,9 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
             </aside>
 
         </div>
-        <?php include __DIR__ . '/komponenty/stopka.php'; ?>
     </div><!-- /outer -->
+
+    <?php include __DIR__ . '/komponenty/stopka.php'; ?>
 
     <script>var REVIEWS = [
             ['Artur', 'Bardzo dzi\u0119kuj\u0119 za Pani pomoc i zaanga\u017cowanie. Dzi\u0119ki Pani uzyska\u0142em super finansowanie dla firm. Jest Pani niezwykle skuteczna i odpowiedzialna.'],
@@ -533,27 +536,41 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
         var page = 0;
         var pages = Math.ceil(REVIEWS.length / PER);
         var timer;
+        var _reviewsBuilt = false;
 
         function buildReviews(p) {
             page = p;
             var track = document.getElementById('reviews-track');
             var dots = document.querySelectorAll('.rev-dot');
             if (!track) return;
-            track.innerHTML = '';
-            var chunk = REVIEWS.slice(p * PER, p * PER + PER);
-            for (var i = 0; i < chunk.length; i++) {
-                var card = document.createElement('div');
-                card.className = 'review';
-                var nm = document.createElement('div');
-                nm.className = 'rev-name';
-                nm.textContent = chunk[i][0];
-                var tx = document.createElement('p');
-                tx.className = 'rev-text';
-                tx.textContent = chunk[i][1];
-                card.appendChild(nm);
-                card.appendChild(tx);
-                track.appendChild(card);
+
+            // Renderuj wszystkie strony do DOM tylko raz
+            if (!_reviewsBuilt) {
+                _reviewsBuilt = true;
+                for (var pg = 0; pg < pages; pg++) {
+                    var pageEl = document.createElement('div');
+                    pageEl.className = 'reviews-page';
+                    var chunk = REVIEWS.slice(pg * PER, pg * PER + PER);
+                    for (var i = 0; i < chunk.length; i++) {
+                        var card = document.createElement('div');
+                        card.className = 'review';
+                        var nm = document.createElement('div');
+                        nm.className = 'rev-name';
+                        nm.textContent = chunk[i][0];
+                        var tx = document.createElement('p');
+                        tx.className = 'rev-text';
+                        tx.textContent = chunk[i][1];
+                        card.appendChild(nm);
+                        card.appendChild(tx);
+                        pageEl.appendChild(card);
+                    }
+                    track.appendChild(pageEl);
+                }
             }
+
+            // Przesuń widok do wybranej strony — tylko CSS transform, zero odczytu layoutu
+            track.style.transform = 'translateX(calc(' + p + ' * -100%))';
+
             for (var j = 0; j < dots.length; j++) {
                 dots[j].className = 'rev-dot' + (j === p ? ' active' : '');
             }
@@ -606,55 +623,8 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
                 .catch(function () { if (callback) callback(); });
         }
 
-        function calcReviewHeight() {
-            /* Ustal liczbę kolumn tak samo jak CSS (breakpoint 600px → 1 kolumna) */
-            var cols = window.innerWidth <= 900 ? 1 : 3;
-            var trackW = document.getElementById('reviews-track').offsetWidth || 320;
-            var gap = 20;
-            var colW = cols === 1 ? trackW : Math.floor((trackW - gap * (cols - 1)) / cols);
-
-            var probe = document.createElement('div');
-            probe.style.cssText = 'position:absolute;visibility:hidden;top:-9999px;left:-9999px;' +
-                'width:' + trackW + 'px;' +
-                'display:grid;grid-template-columns:repeat(' + cols + ',1fr);gap:' + gap + 'px;';
-            document.body.appendChild(probe);
-
-            var maxH = 0;
-            for (var i = 0; i < REVIEWS.length; i++) {
-                var card = document.createElement('div');
-                card.className = 'review';
-                card.style.minHeight = 'auto';
-                var nm = document.createElement('div');
-                nm.className = 'rev-name';
-                nm.textContent = REVIEWS[i][0];
-                var tx = document.createElement('p');
-                tx.className = 'rev-text';
-                tx.textContent = REVIEWS[i][1];
-                card.appendChild(nm);
-                card.appendChild(tx);
-                probe.appendChild(card);
-            }
-
-            probe.getBoundingClientRect(); /* wymuś reflow */
-            var cards = probe.querySelectorAll('.review');
-            for (var j = 0; j < cards.length; j++) {
-                if (cards[j].offsetHeight > maxH) maxH = cards[j].offsetHeight;
-            }
-            document.body.removeChild(probe);
-            if (maxH > 0) {
-                document.documentElement.style.setProperty('--review-card-height', maxH + 'px');
-            }
-        }
-
-        var _resizeTimer;
-        window.addEventListener('resize', function () {
-            clearTimeout(_resizeTimer);
-            _resizeTimer = setTimeout(calcReviewHeight, 120);
-        });
-
         window.onload = function () {
             buildNav();
-            calcReviewHeight();
             buildReviews(0);
             startTick();
 
@@ -786,7 +756,22 @@ KONFIGURACJA — zmień poniższe wartości według potrzeb
 
             drawWeek();         // natychmiastowy rysunek
             updateCalInfo();
-            fetchBookedSlots(); // asynchroniczne pobranie zajętych slotów i odświeżenie
+
+            // Leniwe pobranie zajętych slotów — dopiero gdy kalendarz wejdzie w widoczny obszar
+            var _slotsLoaded = false;
+            var _calTarget = document.querySelector('.cal-wrap');
+            if (_calTarget && 'IntersectionObserver' in window) {
+                var _calObserver = new IntersectionObserver(function (entries) {
+                    if (entries[0].isIntersecting && !_slotsLoaded) {
+                        _slotsLoaded = true;
+                        fetchBookedSlots();
+                        _calObserver.disconnect();
+                    }
+                }, { rootMargin: '300px' });
+                _calObserver.observe(_calTarget);
+            } else {
+                fetchBookedSlots(); // fallback dla starszych przeglądarek
+            }
 
             document.getElementById('booking-modal').addEventListener('click', function (e) {
                 if (e.target === this) closeBookingModal();
