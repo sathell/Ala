@@ -114,17 +114,14 @@
     </script>
 
     <script>var CFG_TEL="+48500376147",CFG_TEL_LABEL="+48 500 376 147",CFG_EMAIL="alicja.muryn@outlook.com",CFG_WEBSITE="https://kredyty-koszalin.pl",CFG_WEBSITE_LABEL="kredyty-koszalin.pl",CFG_ENDPOINT_CONTACT="/api/contact",CFG_ENDPOINT_BOOKING="/api/booking";document.addEventListener("DOMContentLoaded",function(){var t=document.getElementById("mob-cta");if(t){t.href="tel:"+CFG_TEL;var e=document.getElementById("mob-cta-num");e&&(e.textContent=CFG_TEL_LABEL)}var n=document.getElementById("contact-tel-link");n&&(n.href="tel:"+CFG_TEL,n.textContent=CFG_TEL_LABEL);var o=document.getElementById("contact-email-link");o&&(o.href="mailto:"+CFG_EMAIL,o.textContent=CFG_EMAIL);var E=document.getElementById("footer-tel-link");E&&(E.href="tel:"+CFG_TEL,E.textContent=CFG_TEL_LABEL);var C=document.getElementById("footer-email-link");C&&(C.href="mailto:"+CFG_EMAIL,C.textContent=CFG_EMAIL);var l=document.getElementById("footer-website-link");l&&(l.href=CFG_WEBSITE,l.textContent=CFG_WEBSITE_LABEL)});</script>
-    <!-- Preconnect do domen fontów (eliminuje dodatkowe czasy połączenia) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Asynchroniczne ładowanie fontów: media=print powoduje, że plik CSS nie blokuje renderowania;
-         onload zmienia media na 'all' po pobraniu, a <noscript> zapewnia fallback -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=optional"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
         media="print" onload="this.media='all'">
     <noscript>
         <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=optional">
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
     </noscript>
     <link rel="preload" href="./main.css?v=2" as="style">
     <link rel="preload" href="./glowna.css?v=2" as="style">
