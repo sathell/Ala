@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/media/main-icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komentarze eksperta — Alicja Muryn | Ekspert Kredytowy Koszalin</title>
     <meta name="description" content="Komentarze eksperta kredytowego Alicji Muryn — aktualności z rynku kredytów hipotecznych, porady i analizy dla kredytobiorców w Koszalinie i okolicach.">
