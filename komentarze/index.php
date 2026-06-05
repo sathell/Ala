@@ -152,8 +152,6 @@
             <?php include __DIR__ . '/../komponenty/pasek-boczny-komentarze.php'; ?>
         </div>
     </div>
-
     <?php include __DIR__ . '/../komponenty/stopka.php'; ?>
-
 </body>
 </html> 

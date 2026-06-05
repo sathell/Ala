@@ -12,7 +12,7 @@
           media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Jost:wght@300;400;500&display=swap"></noscript>
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="polityka-prywatności.css">
+    <link rel="stylesheet" href="/polityka-prywatnosci/polityka-prywatnosci.css">
 </head>
 <body>
     <div class="page-wrap">
@@ -275,10 +275,7 @@
                 </li>
             </ol>
         </div><!-- /.policy-body -->
-        <footer class="page-footer">
-            <p>&copy; 2025 <a href="/">Alicja Muryn — Ekspert Kredytowy Koszalin</a></p>
-        </footer>
-
     </div><!-- /.page-wrap -->
+    <?php include __DIR__ . '/../komponenty/stopka.php'; ?>
 </body>
 </html>

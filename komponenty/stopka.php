@@ -35,15 +35,11 @@
     <footer>
         <span>&copy; 2026 Alicja Muryn &mdash; Ekspert Kredytowy Koszalin</span>
         <span>
-            <a id="footer-tel-link" href="#"></a>
+            <a id="footer-email-link">alicja.muryn@outlook.com</a>
             &nbsp;&middot;&nbsp;
-            <a id="footer-email-link" href="#"></a>
-            &nbsp;&middot;&nbsp;
-            <a id="footer-website-link" href="#" target="_blank" rel="noopener"></a>
+            <a id="footer-website-link" href="/" target="_blank" rel="noopener">kredyty-koszalin.pl</a>
             &nbsp;&middot;&nbsp;
             <a href="/polityka-prywatnosci">Polityka prywatności</a>
         </span>
     </footer>
-
-    
 </div>
