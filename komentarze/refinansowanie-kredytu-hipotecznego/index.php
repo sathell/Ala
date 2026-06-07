@@ -5,35 +5,38 @@
     <link rel="icon" href="/media/main-icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Stała czy zmienna stopa procentowa? — Alicja Muryn | Ekspert Kredytowy Koszalin</title>
-    <meta name="description" content="Stała czy zmienna stopa kredytu hipotecznego? Ekspert kredytowy Alicja Muryn wyjaśnia różnice i podpowiada, co wybrać w 2026 roku.">
+    <title>Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank? — Alicja Muryn | Ekspert Kredytowy Koszalin</title>
+    <meta name="description" content="Kiedy refinansowanie kredytu hipotecznego naprawdę się opłaca? Ekspert kredytowy Alicja Muryn wyjaśnia kiedy warto zmienić bank, ile to kosztuje i czego pilnować w umowie.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Alicja Muryn">
-    <link rel="canonical" href="https://kredyty-koszalin.pl/komentarze/stala-vs-zmienna-stopa">
+    <link rel="canonical" href="https://kredyty-koszalin.pl/komentarze/refinansowanie-kredytu-hipotecznego">
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://kredyty-koszalin.pl/komentarze/stala-vs-zmienna-stopa">
-    <meta property="og:title" content="Stała czy zmienna stopa procentowa? — Alicja Muryn">
-    <meta property="og:description" content="Stała czy zmienna stopa kredytu hipotecznego? Ekspert kredytowy Alicja Muryn wyjaśnia różnice i podpowiada, co wybrać w 2026 roku.">
+    <meta property="og:url" content="https://kredyty-koszalin.pl/komentarze/refinansowanie-kredytu-hipotecznego">
+    <meta property="og:title" content="Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank? — Alicja Muryn">
+    <meta property="og:description" content="Kiedy refinansowanie kredytu hipotecznego naprawdę się opłaca? Ekspert kredytowy Alicja Muryn wyjaśnia kiedy warto zmienić bank, ile to kosztuje i czego pilnować w umowie.">
     <meta property="og:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Stała czy zmienna stopa procentowa — komentarz eksperta">
+    <meta property="og:image:alt" content="Refinansowanie kredytu hipotecznego — komentarz eksperta">
     <meta property="og:locale" content="pl_PL">
     <meta property="og:site_name" content="Ekspert Kredytowy Koszalin">
-    <meta property="article:published_time" content="2026-04-25T09:00:00+02:00">
+    <meta property="article:published_time" content="2026-06-06T09:00:00+02:00">
     <meta property="article:modified_time" content="2026-06-06T09:00:00+02:00">
     <meta property="article:author" content="Alicja Muryn">
     <meta property="article:section" content="Kredyt hipoteczny">
-    <meta property="article:tag" content="stała stopa procentowa">
-    <meta property="article:tag" content="zmienna stopa procentowa">
+    <meta property="article:tag" content="refinansowanie kredytu">
     <meta property="article:tag" content="kredyt hipoteczny">
+    <meta property="article:tag" content="zmiana banku">
+    <meta property="article:tag" content="marża kredytu">
+    <meta property="article:tag" content="ekspert kredytowy Koszalin">
+
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Stała czy zmienna stopa procentowa? — Alicja Muryn">
-    <meta name="twitter:description" content="Stała czy zmienna stopa kredytu hipotecznego? Ekspert kredytowy Alicja Muryn wyjaśnia różnice i podpowiada, co wybrać w 2026 roku.">
+    <meta name="twitter:title" content="Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank? — Alicja Muryn">
+    <meta name="twitter:description" content="Kiedy refinansowanie kredytu hipotecznego naprawdę się opłaca? Ekspert kredytowy Alicja Muryn wyjaśnia kiedy warto zmienić bank, ile to kosztuje i czego pilnować w umowie.">
     <meta name="twitter:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
 
     <!-- Dane strukturalne JSON-LD -->
@@ -42,10 +45,10 @@
           {
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Stała czy zmienna stopa procentowa? Jak wybrać kredyt hipoteczny w 2026 roku",
-            "description": "Stała czy zmienna stopa kredytu hipotecznego? Ekspert kredytowy Alicja Muryn wyjaśnia różnice i podpowiada, co wybrać w 2026 roku.",
-            "url": "https://kredyty-koszalin.pl/komentarze/stala-vs-zmienna-stopa",
-            "datePublished": "2026-04-25T09:00:00+02:00",
+            "headline": "Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank?",
+            "description": "Kiedy refinansowanie kredytu hipotecznego naprawdę się opłaca? Ekspert kredytowy Alicja Muryn wyjaśnia kiedy warto zmienić bank, ile to kosztuje i czego pilnować w umowie.",
+            "url": "https://kredyty-koszalin.pl/komentarze/refinansowanie-kredytu-hipotecznego",
+            "datePublished": "2026-06-06T09:00:00+02:00",
             "dateModified": "2026-06-06T09:00:00+02:00",
             "inLanguage": "pl",
             "author": {
@@ -69,7 +72,7 @@
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://kredyty-koszalin.pl/komentarze/stala-vs-zmienna-stopa"
+              "@id": "https://kredyty-koszalin.pl/komentarze/refinansowanie-kredytu-hipotecznego"
             },
             "image": {
               "@type": "ImageObject",
@@ -78,8 +81,10 @@
               "height": 630
             },
             "about": [
-              { "@type": "Thing", "name": "stała stopa procentowa" },
-              { "@type": "Thing", "name": "zmienna stopa procentowa" },
+              { "@type": "Thing", "name": "refinansowanie kredytu hipotecznego" },
+              { "@type": "Thing", "name": "zmiana banku" },
+              { "@type": "Thing", "name": "marża kredytowa" },
+              { "@type": "Thing", "name": "stopa procentowa" },
               { "@type": "Thing", "name": "kredyt hipoteczny" }
             ]
           },
@@ -102,8 +107,8 @@
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "Stała czy zmienna stopa procentowa?",
-                "item": "https://kredyty-koszalin.pl/komentarze/stala-vs-zmienna-stopa"
+                "name": "Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank?",
+                "item": "https://kredyty-koszalin.pl/komentarze/refinansowanie-kredytu-hipotecznego"
               }
             ]
           },
@@ -175,117 +180,88 @@
                 <div class="article-header">
                     <a class="article-back" href="/komentarze">Wróć do listy komentarzy</a>
 
-                    <div class="article-meta">25 kwietnia 2026 &nbsp;·&nbsp; Komentarz eksperta</div>
-                    <h1 class="article-title">Stała czy zmienna stopa procentowa? Jak wybrać kredyt hipoteczny w 2026 roku</h1>
-                    <p class="article-lead">To jedno z najczęstszych pytań, z jakimi przychodzą do mnie klienci planujący zakup mieszkania lub domu. Odpowiedź nie jest prosta — i zależy od Twojej sytuacji, nie od ogólnych trendów.</p>
+                    <div class="article-meta">06 czerwca 2026 &nbsp;·&nbsp; Komentarz eksperta</div>
+                    <h1 class="article-title">Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank?</h1>
+                    <p class="article-lead">Wielu kredytobiorców po podpisaniu umowy przestaje monitorować sytuację na rynku, choć warunki finansowania można z czasem poprawić. Wyjaśniam kiedy refinansowanie naprawdę ma sens — i kiedy nie.</p>
                 </div>
 
                 <!-- TREŚĆ ARTYKUŁU -->
                 <article class="article-body">
                     <div class="rule"></div>
 
-                    <h2>Na czym polega różnica?</h2>
+                    <h2>Czym jest refinansowanie kredytu hipotecznego?</h2>
 
-                    <p>Zanim ocenisz, co jest lepsze dla Ciebie, warto zrozumieć mechanizm obu rozwiązań. <strong>Kredyt ze zmienną stopą procentową</strong> jest oparty o wskaźnik WIBOR (najczęściej 3M lub 6M) powiększony o stałą marżę banku. Oznacza to, że Twoja rata zmienia się wraz z decyzjami Rady Polityki Pieniężnej — może rosnąć w czasach walki z inflacją i maleć, gdy RPP obniża stopy.</p>
+                    <p>Refinansowanie to przeniesienie kredytu hipotecznego z jednego banku do drugiego — na lepszych warunkach. Nowy bank spłaca Twoje dotychczasowe zobowiązanie i udziela Ci nowego kredytu: zazwyczaj na niższe oprocentowanie, niższą marżę lub korzystniejszą strukturę rat. Dla Ciebie zmienia się tylko bank, do którego trafia miesięczna rata.</p>
 
-                    <p><strong>Kredyt ze stałą stopą</strong> to rozwiązanie, w którym oprocentowanie jest zamrożone na określony czas — w polskich bankach standardem są 5 lub 7 lat (pojedyncze banki oferują 10 lat). Przez cały ten okres rata pozostaje niezmieniona, niezależnie od tego, co dzieje się z WIBORem czy decyzjami RPP.</p>
+                    <p>To legalna, powszechna praktyka i żaden bank nie może Ci jej zabronić — choć niektóre utrudniają ją zapisami w umowie o prowizji za wcześniejszą spłatę. Zanim złożysz wniosek, warto te zapisy sprawdzić.</p>
 
-                    <div class="article-callout">
-                        Warto wiedzieć: po zakończeniu okresu stałości bank zaproponuje Ci nowe oprocentowanie — albo stałe na kolejny okres, albo przejście na zmienną stopę. Nie dzieje się to automatycznie i zawsze warto wtedy renegocjować warunki lub rozejrzeć się za refinansowaniem.
-                    </div>
+                    <h2>Kiedy refinansowanie naprawdę się opłaca?</h2>
 
-                    <h2>Porównanie — co zyskujesz, czego się wyrzekasz</h2>
+                    <p>Nie ma jednej odpowiedzi pasującej do wszystkich sytuacji. Ale są sygnały, które wyraźnie wskazują, że warto się rozejrzeć:</p>
 
-                    <table class="compare-table">
-                        <thead>
-                            <tr>
-                                <th>Cecha</th>
-                                <th>Stała stopa</th>
-                                <th>Zmienna stopa</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Przewidywalność raty</td>
-                                <td class="plus">✓ Pełna</td>
-                                <td class="minus">✗ Rata zmienia się</td>
-                            </tr>
-                            <tr>
-                                <td>Ochrona przed wzrostem stóp</td>
-                                <td class="plus">✓ Tak</td>
-                                <td class="minus">✗ Brak</td>
-                            </tr>
-                            <tr>
-                                <td>Korzyść przy spadku stóp</td>
-                                <td class="minus">✗ Nie odczujesz</td>
-                                <td class="plus">✓ Rata maleje</td>
-                            </tr>
-                            <tr>
-                                <td>Wysokość oprocentowania na start</td>
-                                <td class="neutral">Zwykle nieco wyższe</td>
-                                <td class="neutral">Zwykle nieco niższe</td>
-                            </tr>
-                            <tr>
-                                <td>Elastyczność / wcześniejsza spłata</td>
-                                <td class="minus">Sprawdź zapisy umowy</td>
-                                <td class="plus">Zazwyczaj bardziej elastyczna</td>
-                            </tr>
-                            <tr>
-                                <td>Komfort psychiczny</td>
-                                <td class="plus">✓ Wysoki</td>
-                                <td class="minus">Zależy od sytuacji rynkowej</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <p><strong>Masz kredyt ze zmienną stopą zaciągnięty przed 2022 rokiem.</strong> Wiele umów podpisanych w latach 2018–2021 zawierało marże w okolicach 2,0–2,5%. Na rynku można znaleźć oferty z marżą poniżej 1,8%, a w niektórych przypadkach nawet bliżej 1,5–1,7% —  przy kredycie na kilkaset tysięcy złotych każde 0,2 pp marży to kilkanaście tysięcy złotych różnicy w całym okresie kredytowania.</p>
 
-                    <h2>Kiedy stała stopa ma szczególny sens?</h2>
+                    <p><strong>Kończy się Twój okres stałego oprocentowania.</strong> Bank zaproponuje Ci nowe warunki — ale nie musi to być najlepsza oferta na rynku. To idealny moment, żeby porównać i ewentualnie przenieść kredyt. Pisałam o tym dokładniej tutaj: <a href="/komentarze/stala-vs-zmienna-stopa">Stała czy zmienna stopa procentowa? Jak wybrać kredyt hipoteczny w 2026 roku</a>.</p>
 
-                    <p>Ze stałą stopą warto poważnie się zastanowić, gdy:</p>
-
-                    <ul>
-                        <li><strong>Twój budżet domowy jest dokładnie zaplanowany</strong> — znasz swoje przychody i wydatki i nie masz dużego buforu na wzrost raty o kilkaset złotych miesięcznie.</li>
-                        <li><strong>Planujesz mieć dziecko lub już wychowujesz dzieci</strong> — stabilność raty to mniejszy stres w ważnym życiowym momencie.</li>
-                        <li><strong>Stopy procentowe są historycznie niskie</strong> — w takim otoczeniu „zamrożenie" oprocentowania na lata daje realną ochronę przed przyszłymi wzrostami.</li>
-                        <li><strong>Cenisz spokój bardziej niż potencjalną oszczędność</strong> — i nie chcesz śledzić decyzji RPP co kilka miesięcy.</li>
-                    </ul>
-
-                    <h2>Kiedy zmienna stopa może być korzystniejsza?</h2>
-
-                    <p>Nie ma sensu zamykać oczu na sytuacje, gdy zmienna stopa pracuje na Twoją korzyść:</p>
-
-                    <ul>
-                        <li><strong>Stopy są wysokie i oczekuje się ich obniżek</strong> — tak jak ma to miejsce w Polsce od 2024 roku. Jeśli WIBOR będzie spadał, Twoja rata automatycznie maleje.</li>
-                        <li><strong>Planujesz nadpłacać kredyt</strong> lub spłacić go przed czasem — zmienne oprocentowanie często wiąże się z większą elastycznością w tym zakresie.</li>
-                        <li><strong>Masz poduszkę finansową</strong>, która pozwoli Ci pokryć wyższe raty w razie chwilowego wzrostu stóp.</li>
-                    </ul>
+                    <p><strong>Twoja sytuacja finansowa znacząco się poprawiła.</strong> Jeśli od czasu zaciągnięcia kredytu wzrosły Twoje dochody, masz wyższy wkład lub lepszą historię w BIK — jesteś dziś dla banków bardziej atrakcyjnym klientem niż kilka lat temu. Możesz to wykorzystać.</p>
 
                     <div class="article-callout">
-                        Moje obserwacje z pracy z klientami: osoby, które wzięły kredyt ze stałą stopą w 2020–2021 roku, gdy stopy były rekordowo niskie, są dziś w bardzo komfortowej sytuacji. Z kolei ci, którzy wybrali zmienną stopę w tym samym czasie, boleśnie odczuli podwyżki w 2022 roku. Historia lubi się powtarzać — choć nigdy dokładnie.
+                        Przykład z praktyki: klient z kredytem z 2019 roku — marża 2,3%, saldo ok. 380 000 zł, 22 lata do spłaty. Po refinansowaniu do nowego banku z marżą 1,75% — miesięczna rata spadła o ok. 180 zł. W skali pozostałego okresu kredytowania to ponad 47 000 zł oszczędności, nawet po odliczeniu kosztów refinansowania.
+
+                      <p>W przedstawionym przykładzie oszczędność została wyliczona dla konkretnych parametrów kredytu i ma charakter orientacyjny.<p>
                     </div>
 
-                    <h2>A co z aktualną sytuacją rynkową — kwiecień 2026?</h2>
+                    <h2>Ile kosztuje refinansowanie?</h2>
 
-                    <p>Rok 2025 przyniósł jedną z najsilniejszych serii obniżek stóp procentowych od lat — RPP ścięła stopę referencyjną łącznie o 1,75 pp, z 5,75% do 4,00%. W marcu 2026 doszło do kolejnej obniżki o 0,25 pp, do poziomu 3,75%. Kwietniowe posiedzenie RPP nie przyniosło już zmian — Rada przeszła w tryb wyczekiwania.</p>
+                    <p>To najważniejsze pytanie — bo refinansowanie ma sens tylko wtedy, gdy oszczędności przewyższają koszty zmiany. Na co należy się przygotować:</p>
 
-                    <p>WIBOR 3M wynosi dziś około 3,80–3,85%, co oznacza, że oprocentowanie typowego kredytu hipotecznego ze zmienną stopą zbliżyło się do okolic 6%. To wciąż sporo, ale wyraźnie mniej niż szczyt z 2022–2023 roku. Część ekonomistów zakłada jeszcze 2–3 niewielkie cięcia w drugiej połowie 2026 r., ale warunkiem jest dalsze wyhamowanie inflacji — która w marcu podskoczyła do 3,0% i wyhamowała entuzjazm RPP.</p>
+                    <p><strong>Prowizja za wcześniejszą spłatę w obecnym banku.</strong> W przypadku kredytów ze zmiennym oprocentowaniem bank może pobierać prowizję za wcześniejszą spłatę maksymalnie przez pierwsze 36 miesięcy od zawarcia umowy. W kredytach ze stałym oprocentowaniem zasady mogą być inne i zależą od zapisów umowy.</p>
+
+                    <p><strong>Wycena nieruchomości.</strong> Nowy bank zazwyczaj wymaga aktualnego operatu szacunkowego. Koszt wyceny mieszkania to ok. 400–700 zł, domu jednorodzinnego — 700–1200 zł.</p>
+
+                    <p><strong>Opłaty notarialne i sądowe.</strong> Zmiana zabezpieczenia hipotecznego wiąże się z opłatami sądowymi za wykreślenie i wpis hipoteki do księgi wieczystej. W większości przypadków nie jest wymagane zawieranie nowego aktu notarialnego.</p>
+
+                    <p><strong>Prowizja nowego banku.</strong> Część banków pobiera prowizję za udzielenie kredytu (0–2%). Wiele ofert refinansowych jest jednak dziś bez prowizji — to jeden z argumentów, którymi banki przyciągają klientów od konkurencji.</p>
 
                     <div class="article-callout">
-                        Ważny sygnał: część analityków ostrzega, że obecna poprawa może okazać się przejściowa. Presja płacowa, koszty energii i niepewność geopolityczna mogą sprawić, że inflacja wróci — a wraz z nią ryzyko podwyżek stóp. W takim otoczeniu stała stopa na kolejne 5 lat nabiera szczególnego sensu jako ubezpieczenie.
+                        Łączny koszt refinansowania to zazwyczaj 2 000–5 000 zł. Jeśli miesięczna oszczędność na racie wynosi 150 zł, próg opłacalności osiągasz już po 13–34 miesiącach. Przy kredycie z 20 latami do spłaty to bardzo szybki zwrot.
                     </div>
 
-                    <p>Banki w ofertach stałego oprocentowania już wyceniają część oczekiwanych obniżek, więc różnica między stopą stałą a zmienną jest dziś mniejsza niż rok temu. To sprawia, że decyzja znowu sprowadza się do Twojej osobistej sytuacji i apetytu na ryzyko — a nie do jednej właściwej odpowiedzi dla wszystkich.</p>
+                    <h2>Na co uważać w ofercie nowego banku?</h2>
 
-                    <h2>Czy można zmienić decyzję po podpisaniu umowy?</h2>
+                    <p>Niska marża to nie wszystko. Przy porównywaniu ofert refinansowych zwróć uwagę na kilka elementów, które potrafią zmienić obraz opłacalności:</p>
 
-                    <p>Tak, ale nie zawsze jest to proste ani bezkosztowe. Część banków pozwala na przejście ze zmiennej na stałą stopę w trakcie trwania kredytu — warto zapytać o tę możliwość już na etapie wyboru oferty. Refinansowanie do innego banku to też realna opcja — szczegółowo o tym kiedy warto i ile to kosztuje piszę tutaj: <a href="/komentarze/refinansowanie-kredytu-hipotecznego">Refinansowanie kredytu hipotecznego — kiedy warto zmienić bank?</a></p>
+                    <p><strong>Wymagane produkty dodatkowe.</strong> Część banków obniża marżę w zamian za prowadzenie konta osobistego, regularne wpływy wynagrodzenia czy zakup ubezpieczenia. Warto policzyć, ile faktycznie kosztuje to „obniżenie" marży — czasem miesięczna składka ubezpieczeniowa zjada całą rzekomą oszczędność.</p>
 
-                    <p>Decyzja o stopie to jeden z ostatnich kroków przed złożeniem wniosku. Jeśli dopiero zaczynasz planować zakup nieruchomości i chcesz wiedzieć co zrobić wcześniej — przeczytaj: <a href="/komentarze/kredyt-hipoteczny-krok-po-kroku">Kredyt hipoteczny krok po kroku — co sprawdzić zanim pójdziesz do banku?</a></p>
+                    <p><strong>Warunki wcześniejszej spłaty w nowej umowie.</strong> Jeśli planujesz nadpłacać kredyt lub spłacić go przed terminem — sprawdź zapisy dokładnie. Kredyt z niską marżą, ale surową blokadą wcześniejszej spłaty, może nie być tak korzystny jak wygląda na papierze.</p>
+
+                    <p><strong>Rzeczywista Roczna Stopa Oprocentowania (RRSO).</strong> Uwzględnia wszystkie koszty kredytu — prowizje, ubezpieczenia, opłaty. To lepsza miara do porównywania ofert niż samo nominalne oprocentowanie.</p>
+
+                    <h2>Jak wygląda cały proces?</h2>
+
+                    <p>Refinansowanie formalnie różni się od zaciągania nowego kredytu tylko w jednym szczególe — zamiast kupować nieruchomość, spłacasz istniejący kredyt w innym banku. Z punktu widzenia dokumentów i procedur to niemal identyczny proces: wniosek, analiza zdolności kredytowej, wycena nieruchomości, decyzja kredytowa, podpisanie umowy kredytowej i ustanowienie nowego zabezpieczenia hipotecznego.</p>
+
+                    <p>Cały proces trwa zazwyczaj 3–6 tygodni. Przez większość tego czasu nic nie musisz robić — to zadanie dla mnie i analityka bankowego.</p>
+
+                    <div class="article-callout">
+                        Ważna kwestia: przez okres refinansowania płacisz normalnie raty do starego banku. Nowy bank sam rozlicza się ze starym po uruchomieniu kredytu — nie musisz nic "przelewać" samodzielnie.
+                    </div>
+
+                    <h2>Czy refinansowanie wpływa na zdolność kredytową?</h2>
+
+                    <p>Tak jak przy każdym kredycie — nowy bank sprawdzi Twój BIK i oceni zdolność kredytową. Jeśli Twoja sytuacja finansowa jest stabilna, to nie powinno stanowić problemu. Zapytania kredytowe są widoczne w BIK przez 12 miesięcy. Kilka wniosków hipotecznych złożonych w krótkim czasie zwykle nie wpływa istotnie na ocenę klienta, jednak składanie dużej liczby wniosków bez potrzeby może utrudniać analizę zdolności kredytowej.</p>
+
+                    <p>Wszystko o tym, jak BIK wpływa na decyzje bankowe i jak zadbać o dobrą historię kredytową przed złożeniem wniosku, znajdziesz tutaj: <a href="/komentarze/jak-poprawic-zdolnosc-kredytowa">Zdolność kredytowa — jak ją poprawić, zanim złożysz wniosek?</a></p>
+
+                    <h2>Kiedy refinansowanie nie ma sensu?</h2>
+
+                    <p>Warto też powiedzieć wprost, kiedy zmiana banku się nie opłaci. Jeśli Twoje saldo kredytu jest już niewielkie (poniżej 100 000 zł) i zostało kilka lat do końca — koszty refinansowania mogą nie zwrócić się w pozostałym czasie. Podobnie, jeśli Twoja obecna marża jest już konkurencyjna (poniżej 1,6–1,7%) i nie ma wyraźnej różnicy w ofertach. W takich przypadkach lepszą strategią bywa renegocjacja warunków z obecnym bankiem — bez zmiany instytucji i bez kosztów.</p>
 
                     <!-- CTA na dole komentarza -->
                     <div class="article-cta-box">
                         <p>
-                            <strong>Nie wiesz, która opcja jest lepsza w Twojej sytuacji?</strong><br>
-                            Przeanalizuję Twoje potrzeby i porównam konkretne oferty banków — bezpłatnie i bez zobowiązań. Razem wybierzemy kredyt, który będzie dla Ciebie bezpieczny na lata.
+                            <strong>Masz kredyt hipoteczny i zastanawiasz się, czy warto go przenieść?</strong><br>
+                            Przeanalizuję Twoją umowę, porównam aktualne oferty i powiem wprost — czy refinansowanie Ci się opłaca i o ile możesz obniżyć ratę. Analiza jest bezpłatna.
                         </p>
                         <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
                     </div>
@@ -305,6 +281,7 @@
 
             </main><!-- /content -->
             <?php include __DIR__ . '/../../komponenty/pasek-boczny-komentarze.php'; ?>
+
         </div><!-- /page -->
     </div><!-- /outer -->
 
