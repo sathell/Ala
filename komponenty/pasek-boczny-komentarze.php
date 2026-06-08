@@ -4,12 +4,9 @@
         <a href="/">Strona główna</a>
         <a href="/#o-mnie">O mnie</a>
         <a href="/#oferta">Oferta</a>
-        <?php
-        $current_uri = $_SERVER['REQUEST_URI'] ?? '/';
-        $path = parse_url($current_uri, PHP_URL_PATH);
-        $is_komentarze = trim($path, '/') === 'komentarze';
-        ?>
-        <a href="<?php echo $is_komentarze ? '/#wermado' : '/komentarze'; ?>"><?php echo $is_komentarze ? 'Domy modułowe' : 'Komentarze eksperta'; ?></a>
+        <a href="/komentarze">Komentarze eksperta</a>
+        <a href="/kalkulatory">Kalkulatory</a>
+        <a href="/#wermado">Domy modułowe</a>
         <a href="/#opinie">Opinie klientów</a>
         <a href="/#kontakt">Kontakt</a>
     </nav>
