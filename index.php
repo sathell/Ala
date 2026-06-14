@@ -154,7 +154,7 @@
         </div>
     </nav>
 
-    <a id="mob-cta" href="#"><span class="t1">Bezpłatna konsultacja</span><span id="mob-cta-num"
+    <a id="mob-cta" href="tel:+48500376147"><span class="t1">Bezpłatna konsultacja</span><span id="mob-cta-num"
             class="t2">+48500376147</span></a>
     <a id="mob-blog" href="komentarze/">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
