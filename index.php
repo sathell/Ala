@@ -395,6 +395,35 @@
                             komentarze →</a></p>
                 </section>
 
+                <!-- KALKULATORY -->
+                <section id="kalkulatory">
+                    <div class="stag">Narzędzia online</div>
+                    <h2>Kalkulatory<br>kredytowe</h2>
+                    <div class="rule"></div>
+                    <div class="comments-grid">
+
+                        <!-- KALKULATOR 1 -->
+                        <a class="comment-card" href="kalkulatory/nadplata/">
+                            <div class="comment-card-date">Kalkulator nadpłaty</div>
+                            <h3>Nadpłata kredytu hipotecznego</h3>
+                            <p class="comment-card-lead">Wpisz saldo, oprocentowanie i kwotę nadpłaty — kalkulator policzy, ile zaoszczędzisz na odsetkach i o ile skróci się Twój kredyt.</p>
+                            <span class="comment-card-more">Otwórz kalkulator →</span>
+                        </a>
+
+                        <!-- KALKULATOR 2 -->
+                        <a class="comment-card" href="kalkulatory/lokata-czy-nadplata/">
+                            <div class="comment-card-date">Kalkulator porównania</div>
+                            <h3>Lokata czy nadpłata kredytu?</h3>
+                            <p class="comment-card-lead">Masz wolną gotówkę? Porównaj, co bardziej się opłaca — lokata bankowa czy jednorazowa nadpłata kredytu. Kalkulator uwzględnia podatek Belki.</p>
+                            <span class="comment-card-more">Otwórz kalkulator →</span>
+                        </a>
+
+                    </div>
+                    <p style="margin-top: 24px; text-align: right;"><a href="kalkulatory/" class="btn"
+                            style="display: inline-block; width: auto; padding: 12px 26px; text-decoration: none;">Wszystkie
+                            kalkulatory →</a></p>
+                </section>
+
                 <!-- OPINIE -->
                 <section id="opinie">
                     <div class="stag">Opinie klientów</div>

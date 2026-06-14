@@ -121,7 +121,7 @@
                 </div>
                 <div class="comments-list">
                     <a class="comment-item" href="/komentarze/nadplata-kredytu-hipotecznego/">
-                        <div class="comment-item-date">06 czerwca 2026</div>
+                        <div class="comment-item-date">07 czerwca 2026</div>
                         <div class="comment-item-body">
                             <div class="comment-item-title">Nadpłata kredytu hipotecznego — czy warto i jak to
                                 zrobić mądrze?</div>
