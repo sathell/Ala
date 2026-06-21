@@ -258,7 +258,7 @@
                             <strong>Chcesz wiedzieć, ile możesz zaoszczędzić na swoim kredycie i jaka strategia nadpłat będzie dla Ciebie najlepsza?</strong><br>
                             Przejrzę Twoją umowę, policzę warianty i powiem wprost, co opłaca się bardziej w Twojej konkretnej sytuacji. Konsultacja jest bezpłatna.
                         </p>
-                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
                     </div>
 
                     <!-- Stopka autora -->

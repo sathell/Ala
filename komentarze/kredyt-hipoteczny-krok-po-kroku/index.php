@@ -255,7 +255,7 @@
                             <strong>Chcesz przejść przez ten proces spokojnie i bez zbędnych błędów?</strong><br>
                             Umów się na bezpłatną konsultację — razem ustalimy od czego zacząć, co poprawić i jak wybrać najlepszą ofertę dla Twojej sytuacji.
                         </p>
-                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
                     </div>
 
                     <!-- Stopka autora -->

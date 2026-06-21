@@ -326,7 +326,7 @@
               Przeanalizuję Twoją umowę, porównam aktualne oferty i powiem wprost — czy refinansowanie Ci się opłaca i o
               ile możesz obniżyć ratę. Analiza jest bezpłatna.
             </p>
-            <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+            <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
           </div>
 
           <!-- Stopka autora -->

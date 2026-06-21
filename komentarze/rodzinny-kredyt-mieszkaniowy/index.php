@@ -258,7 +258,7 @@
                             <strong>Chcesz sprawdzić, czy możesz kupić mieszkanie bez wkładu własnego?</strong><br>
                             Umów się na bezpłatną konsultację — przeanalizuję Twoją zdolność kredytową, sprawdzę dostępne oferty i powiem wprost, czy Rodzinny Kredyt Mieszkaniowy jest dla Ciebie realną opcją.
                         </p>
-                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
                     </div>
 
                     <!-- Stopka autora -->

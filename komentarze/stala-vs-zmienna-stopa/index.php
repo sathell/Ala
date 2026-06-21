@@ -287,7 +287,7 @@
                             <strong>Nie wiesz, która opcja jest lepsza w Twojej sytuacji?</strong><br>
                             Przeanalizuję Twoje potrzeby i porównam konkretne oferty banków — bezpłatnie i bez zobowiązań. Razem wybierzemy kredyt, który będzie dla Ciebie bezpieczny na lata.
                         </p>
-                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
                     </div>
 
                     <!-- Stopka autora -->

@@ -241,7 +241,7 @@
                             <strong>Nie wiesz, jaka jest Twoja zdolność kredytowa i co możesz zrobić, żeby ją poprawić?</strong><br>
                             Zadzwoń lub napisz — wspólnie przejdziemy przez Twoją sytuację krok po kroku. Analiza jest bezpłatna, a rozmowa do niczego nie zobowiązuje.
                         </p>
-                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację →</button>
+                        <button class="article-cta-link" onclick="openKonsultacjaModal()">Umów bezpłatną konsultację</button>
                     </div>
 
                     <!-- Stopka autora -->
