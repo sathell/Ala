@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- dateModified: 2026-04-30 -->
     <link rel="icon" href="/media/main-icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komentarze eksperta — Alicja Muryn | Ekspert Kredytowy Koszalin</title>

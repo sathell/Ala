@@ -1,0 +1,11 @@
+{
+  "name": "kredyty-koszalin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "minify-js": "node minify-inline-js.js"
+  },
+  "devDependencies": {
+    "terser": "^5.39.0"
+  }
+}
