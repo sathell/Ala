@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <!-- dateModified: 2026-06-20 -->
     <link rel="icon" href="/media/main-icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulatory kredytowe — Alicja Muryn | Ekspert Kredytowy Koszalin</title>
@@ -15,8 +16,17 @@
     <meta property="og:title" content="Kalkulatory kredytowe — Alicja Muryn">
     <meta property="og:description" content="Bezpłatne kalkulatory kredytowe — oblicz efekt nadpłaty, porównaj lokatę z nadpłatą kredytu hipotecznego.">
     <meta property="og:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Kalkulatory kredytowe — Alicja Muryn">
     <meta property="og:locale" content="pl_PL">
     <meta property="og:site_name" content="Ekspert Kredytowy Koszalin">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kalkulatory kredytowe — Alicja Muryn">
+    <meta name="twitter:description" content="Bezpłatne kalkulatory kredytowe — oblicz efekt nadpłaty, porównaj lokatę z nadpłatą kredytu hipotecznego.">
+    <meta name="twitter:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
 
     <script type="application/ld+json">
     [
@@ -41,6 +51,43 @@
           { "@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://kredyty-koszalin.pl" },
           { "@type": "ListItem", "position": 2, "name": "Kalkulatory kredytowe", "item": "https://kredyty-koszalin.pl/kalkulatory/" }
         ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Alicja Muryn — Ekspert Kredytowy Koszalin",
+        "description": "Bezpłatne konsultacje kredytowe dla klientów z Koszalina, Kołobrzegu, Szczecinka, Bytowa, Miastka i okolic. Kredyt hipoteczny, firmowy, gotówkowy, domy modułowe.",
+        "url": "https://kredyty-koszalin.pl",
+        "telephone": "+48500376147",
+        "email": "alicja.muryn@outlook.com",
+        "priceRange": "bezpłatna konsultacja",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Koszalin",
+          "addressRegion": "Pomorze Zachodnie",
+          "addressCountry": "PL"
+        },
+        "areaServed": [
+          "Koszalin", "Kołobrzeg", "Szczecinek", "Bytów", "Miastko", "Pomorze Zachodnie"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Usługi kredytowe",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt hipoteczny" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dom modułowy — kredyt i finansowanie" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt firmowy" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt gotówkowy" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Refinansowanie kredytu" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Analiza zdolności kredytowej" } }
+          ]
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ekspert Kredytowy Koszalin — Alicja Muryn",
+        "url": "https://kredyty-koszalin.pl"
       }
     ]
     </script>

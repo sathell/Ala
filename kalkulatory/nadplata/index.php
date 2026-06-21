@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
+    <!-- dateModified: 2026-06-20 -->
     <link rel="icon" href="/media/main-icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator nadpłaty kredytu hipotecznego — Alicja Muryn | Ekspert Kredytowy Koszalin</title>
-    <meta name="description"
-        content="Oblicz ile zaoszczędzisz na odsetkach dzięki nadpłacie kredytu hipotecznego. Porównaj skrócenie okresu kredytowania z obniżeniem raty.">
+    <meta name="description" content="Oblicz ile zaoszczędzisz na odsetkach dzięki nadpłacie kredytu hipotecznego. Porównaj skrócenie okresu kredytowania z obniżeniem raty.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Alicja Muryn">
     <link rel="canonical" href="https://kredyty-koszalin.pl/kalkulatory/nadplata/">
@@ -15,11 +14,19 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kredyty-koszalin.pl/kalkulatory/nadplata/">
     <meta property="og:title" content="Kalkulator nadpłaty kredytu hipotecznego — Alicja Muryn">
-    <meta property="og:description"
-        content="Oblicz ile zaoszczędzisz na odsetkach dzięki nadpłacie kredytu hipotecznego.">
+    <meta property="og:description" content="Oblicz ile zaoszczędzisz na odsetkach dzięki nadpłacie kredytu hipotecznego.">
     <meta property="og:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Kalkulator nadpłaty kredytu hipotecznego — Alicja Muryn">
     <meta property="og:locale" content="pl_PL">
     <meta property="og:site_name" content="Ekspert Kredytowy Koszalin">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kalkulator nadpłaty kredytu hipotecznego — Alicja Muryn">
+    <meta name="twitter:description" content="Oblicz ile zaoszczędzisz na odsetkach dzięki nadpłacie kredytu hipotecznego.">
+    <meta name="twitter:image" content="https://kredyty-koszalin.pl/media/og-image.jpg">
 
     <script type="application/ld+json">
     [
@@ -40,23 +47,119 @@
           { "@type": "ListItem", "position": 2, "name": "Kalkulatory", "item": "https://kredyty-koszalin.pl/kalkulatory/" },
           { "@type": "ListItem", "position": 3, "name": "Kalkulator nadpłaty", "item": "https://kredyty-koszalin.pl/kalkulatory/nadplata/" }
         ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Alicja Muryn — Ekspert Kredytowy Koszalin",
+        "description": "Bezpłatne konsultacje kredytowe dla klientów z Koszalina, Kołobrzegu, Szczecinka, Bytowa, Miastka i okolic. Kredyt hipoteczny, firmowy, gotówkowy, domy modułowe.",
+        "url": "https://kredyty-koszalin.pl",
+        "telephone": "+48500376147",
+        "email": "alicja.muryn@outlook.com",
+        "priceRange": "bezpłatna konsultacja",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Koszalin",
+          "addressRegion": "Pomorze Zachodnie",
+          "addressCountry": "PL"
+        },
+        "areaServed": [
+          "Koszalin", "Kołobrzeg", "Szczecinek", "Bytów", "Miastko", "Pomorze Zachodnie"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Usługi kredytowe",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt hipoteczny" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dom modułowy — kredyt i finansowanie" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt firmowy" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kredyt gotówkowy" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Refinansowanie kredytu" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Analiza zdolności kredytowej" } }
+          ]
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ekspert Kredytowy Koszalin — Alicja Muryn",
+        "url": "https://kredyty-koszalin.pl"
       }
     ]
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
-        media="print" onload="this.media='all'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
-    </noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"></noscript>
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/kalkulatory/kalkulatory.css">
+    <style>
+        .kalk-alert {
+            grid-column: 1 / -1;
+            margin-top: 6px;
+            padding: 14px 18px;
+            border-radius: 8px;
+            border-left: 4px solid;
+            font-family: 'Jost', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
+        .kalk-alert strong {
+            display: block;
+            margin-bottom: 4px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.15rem;
+            font-weight: 500;
+        }
+        .kalk-alert--error {
+            background: #fdecec;
+            border-left-color: #c0392b;
+            color: #7a1f17;
+        }
+        .kalk-alert--warning {
+            background: #fff5e6;
+            border-left-color: #e08a1e;
+            color: #6e4a0e;
+        }
+        .kalk-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .kalk-teaser {
+            margin-top: 28px;
+            padding: 22px 24px;
+            border: 1px solid rgba(0,0,0,0.09);
+            border-radius: 10px;
+            background: rgba(0,0,0,0.02);
+        }
+        .kalk-teaser-label {
+            font-family: 'Jost', sans-serif;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            opacity: 0.6;
+            margin-bottom: 8px;
+        }
+        .kalk-teaser-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 500;
+            font-size: 1.35rem;
+            line-height: 1.3;
+            margin: 0 0 10px;
+        }
+        .kalk-teaser-text {
+            margin: 0 0 14px;
+            line-height: 1.65;
+        }
+        .kalk-teaser-link {
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+    </style>
 </head>
-
 <body>
 
     <div class="mobile-back-bar">
@@ -72,8 +175,7 @@
                     <a class="page-back" href="/kalkulatory/">Wróć do kalkulatorów</a>
                     <div class="stag">Kalkulator 01</div>
                     <h1 class="page-title">Kalkulator nadpłaty kredytu hipotecznego</h1>
-                    <p class="page-lead">Wpisz dane swojego kredytu i kwotę nadpłaty — kalkulator policzy, ile
-                        zaoszczędzisz na odsetkach i jak zmieni się Twój harmonogram spłaty.</p>
+                    <p class="page-lead">Wpisz dane swojego kredytu i kwotę nadpłaty — kalkulator policzy, ile zaoszczędzisz na odsetkach i jak zmieni się Twój harmonogram spłaty.</p>
                     <div class="rule"></div>
                 </div>
 
@@ -117,6 +219,7 @@
                                 <span class="unit">PLN</span>
                             </div>
                         </div>
+                        <div class="kalk-alert" id="rata-alert" style="display:none;"></div>
                     </div>
                     <div class="kalk-grid-2col">
                         <div class="kalk-field">
@@ -134,7 +237,7 @@
                             </select>
                         </div>
                     </div>
-                    <button class="kalk-btn" onclick="oblicz()">Oblicz oszczędności z nadpłaty</button>
+                    <button class="kalk-btn" id="oblicz-btn" onclick="oblicz()">Oblicz oszczędności z nadpłaty</button>
                 </div>
 
                 <!-- WYNIKI -->
@@ -209,41 +312,35 @@
                 <!-- /WYNIKI -->
 
                 <div class="kalk-disclaimer">
-                    <p><strong>Uwaga:</strong> Wyniki mają charakter informacyjny i poglądowy. Kalkulator zakłada stałe
-                        oprocentowanie przez cały okres kredytowania. Rzeczywiste efekty nadpłaty zależą od warunków
-                        umowy kredytowej, polityki banku dotyczącej nadpłat (możliwe prowizje w niektórych bankach),
-                        aktualnego salda i harmonogramu spłat. Skontaktuj się ze swoim bankiem lub doradcą kredytowym
-                        przed podjęciem decyzji.</p>
+                    <p><strong>Uwaga:</strong> Wyniki mają charakter informacyjny i poglądowy. Kalkulator zakłada stałe oprocentowanie przez cały okres kredytowania. Rzeczywiste efekty nadpłaty zależą od warunków umowy kredytowej, polityki banku dotyczącej nadpłat (możliwe prowizje w niektórych bankach), aktualnego salda i harmonogramu spłat. Skontaktuj się ze swoim bankiem lub doradcą kredytowym przed podjęciem decyzji.</p>
                 </div>
 
                 <div class="kalk-article">
                     <h2>Kiedy warto nadpłacać kredyt hipoteczny?</h2>
-                    <p>Nadpłata kredytu to jedna z najskuteczniejszych metod redukcji kosztów kredytu. Każda złotówka
-                        wpłacona ponad wymaganą ratę bezpośrednio zmniejsza kapitał, od którego naliczane są odsetki — a
-                        to oznacza, że przez resztę okresu kredytowania płacisz odsetki od mniejszej kwoty.</p>
+                    <p>Nadpłata kredytu to jedna z najskuteczniejszych metod redukcji kosztów kredytu. Każda złotówka wpłacona ponad wymaganą ratę bezpośrednio zmniejsza kapitał, od którego naliczane są odsetki — a to oznacza, że przez resztę okresu kredytowania płacisz odsetki od mniejszej kwoty.</p>
 
                     <h2>Skrócenie okresu vs. obniżenie raty</h2>
                     <p>Banki zwykle oferują dwa warianty po nadpłacie:</p>
                     <ul>
-                        <li><strong>Skrócenie okresu</strong> — rata pozostaje taka sama, ale kredyt spłacisz wcześniej.
-                            To rozwiązanie przynosi większe oszczędności na odsetkach.</li>
-                        <li><strong>Obniżenie raty</strong> — okres kredytowania pozostaje taki sam, ale miesięczna rata
-                            maleje. Poprawia to płynność finansową, ale oznacza mniejsze łączne oszczędności.</li>
+                        <li><strong>Skrócenie okresu</strong> — rata pozostaje taka sama, ale kredyt spłacisz wcześniej. To rozwiązanie przynosi większe oszczędności na odsetkach.</li>
+                        <li><strong>Obniżenie raty</strong> — okres kredytowania pozostaje taki sam, ale miesięczna rata maleje. Poprawia to płynność finansową, ale oznacza mniejsze łączne oszczędności.</li>
                     </ul>
-                    <p>Które wybrać? To zależy od Twojej sytuacji. Jeśli masz stabilne dochody i nie obawiasz się o
-                        płynność — skrócenie okresu jest zazwyczaj korzystniejsze finansowo. Jeśli potrzebujesz
-                        większego buforu bezpieczeństwa co miesiąc — warto rozważyć obniżenie raty.</p>
+                    <p>Które wybrać? To zależy od Twojej sytuacji. Jeśli masz stabilne dochody i nie obawiasz się o płynność — skrócenie okresu jest zazwyczaj korzystniejsze finansowo. Jeśli potrzebujesz większego buforu bezpieczeństwa co miesiąc — warto rozważyć obniżenie raty.</p>
 
                     <h2>Czy bank może pobierać prowizję za nadpłatę?</h2>
-                    <p>Zgodnie z ustawą o kredycie hipotecznym, banki mogą pobierać prowizję za nadpłatę jedynie przez
-                        pierwsze 3 lata trwania umowy. Po tym czasie nadpłata powinna być bezpłatna. Warto jednak
-                        sprawdzić zapisy swojej umowy kredytowej.</p>
+                    <p>Zgodnie z ustawą o kredycie hipotecznym, banki mogą pobierać prowizję za nadpłatę jedynie przez pierwsze 3 lata trwania umowy. Po tym czasie nadpłata powinna być bezpłatna. Warto jednak sprawdzić zapisy swojej umowy kredytowej.</p>
                 </div>
+
+                <div class="kalk-teaser">
+                        <div class="kalk-teaser-label">Komentarz eksperta</div>
+                        <div class="kalk-teaser-title">Nadpłata kredytu hipotecznego — czy warto i jak to zrobić mądrze?</div>
+                        <p class="kalk-teaser-text">Masz odłożone kilka tysięcy złotych i zastanawiasz się, czy wrzucić je w kredyt? To jedno z pytań, które słyszę najczęściej od klientów już po uruchomieniu kredytu. Odpowiedź zależy od kilku rzeczy — i rzadko jest tak prosta, jak się wydaje.</p>
+                        <a href="/komentarze/nadplata-kredytu-hipotecznego/" class="kalk-teaser-link">Czytaj cały komentarz →</a>
+                    </div>
 
                 <div class="kalk-cta">
                     <div class="kalk-cta-title">Chcesz omówić strategię nadpłat?</div>
-                    <p class="kalk-cta-text">Pomogę Ci dobrać optymalną strategię nadpłat do Twojej sytuacji —
-                        bezpłatnie, bez zobowiązań.</p>
+                    <p class="kalk-cta-text">Pomogę Ci dobrać optymalną strategię nadpłat do Twojej sytuacji — bezpłatnie, bez zobowiązań.</p>
                     <a href="/kontakt/" class="kalk-cta-btn">Umów konsultację</a>
                 </div>
 
@@ -253,141 +350,205 @@
     </div>
 
     <?php include __DIR__ . '/../../komponenty/stopka.php'; ?>
-    <?php include __DIR__ . '/komponenty/formularz-bezplatnej-konsultacji.php'; ?>
-    <script>
-        function fmt(n) {
-            return Math.round(n).toLocaleString('pl-PL') + ' zł';
-        }
-        function fmtLat(mies) {
-            const l = Math.floor(mies / 12);
-            const m = Math.round(mies % 12);
-            if (l === 0) return m + ' mies.';
-            if (m === 0) return l + ' lat';
-            return l + ' lat ' + m + ' mies.';
-        }
 
-        function symuluj(kapitalStart, stopa_m, rata) {
-            let K = kapitalStart;
-            let sumaOdsetek = 0;
-            let miesiace = 0;
-            const MAX = 600;
-            while (K > 0.01 && miesiace < MAX) {
-                const ods = K * stopa_m;
-                const kapCzesc = Math.min(rata - ods, K);
-                if (kapCzesc <= 0) break;
-                sumaOdsetek += ods;
-                K -= kapCzesc;
-                miesiace++;
-            }
-            return { miesiace, sumaOdsetek };
-        }
+<script>
+function fmt(n) {
+    return Math.round(n).toLocaleString('pl-PL') + ' zł';
+}
+function fmtLat(mies) {
+    const l = Math.floor(mies / 12);
+    const m = Math.round(mies % 12);
+    if (l === 0) return m + ' mies.';
+    if (m === 0) return l + ' lat';
+    return l + ' lat ' + m + ' mies.';
+}
 
-        function rataRowna(K, r, n) {
-            if (r === 0) return K / n;
-            return K * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1);
-        }
+function symuluj(kapitalStart, stopa_m, rata) {
+    let K = kapitalStart;
+    let sumaOdsetek = 0;
+    let miesiace = 0;
+    const MAX = 600;
+    while (K > 0.01 && miesiace < MAX) {
+        const ods = K * stopa_m;
+        const kapCzesc = Math.min(rata - ods, K);
+        if (kapCzesc <= 0) break;
+        sumaOdsetek += ods;
+        K -= kapCzesc;
+        miesiace++;
+    }
+    return { miesiace, sumaOdsetek };
+}
 
-        function oblicz() {
-            const saldo = parseFloat(document.getElementById('saldo').value);
-            const oprocRoczne = parseFloat(document.getElementById('oprocentowanie').value) / 100;
-            const okresLat = parseInt(document.getElementById('okres').value);
-            const rataAkt = parseFloat(document.getElementById('rata-aktualna').value);
-            const nadplata = parseFloat(document.getElementById('nadplata').value);
-            const cel = document.getElementById('cel-nadplaty').value;
+function rataRowna(K, r, n) {
+    if (r === 0) return K / n;
+    return K * r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1);
+}
 
-            if (!saldo || !oprocRoczne || !okresLat || !rataAkt || !nadplata) {
-                alert('Wypełnij wszystkie pola.');
-                return;
-            }
-            if (nadplata >= saldo) {
-                alert('Kwota nadpłaty nie może być wyższa niż saldo kredytu.');
-                return;
-            }
+function rataMinimalna(saldo, stopa_m) {
+    return saldo * stopa_m;
+}
 
-            const stopa_m = oprocRoczne / 12;
-            const n = okresLat * 12;
-            const minRata = saldo * stopa_m;
+// ŻYWA WALIDACJA RATY -----------------------------------------------------
+function walidujRate() {
+    const alertBox = document.getElementById('rata-alert');
+    const btn      = document.getElementById('oblicz-btn');
 
-            if (rataAkt <= minRata) {
-                alert('Podana rata (' + Math.round(rataAkt).toLocaleString('pl-PL') + ' zł) jest za niska — nie pokrywa nawet odsetek od aktualnego salda (' + Math.round(minRata).toLocaleString('pl-PL') + ' zł). Sprawdź dane.');
-                return;
-            }
+    const saldo       = parseFloat(document.getElementById('saldo').value);
+    const oprocRoczne = parseFloat(document.getElementById('oprocentowanie').value) / 100;
+    const okresLat    = parseInt(document.getElementById('okres').value);
+    const rataAkt     = parseFloat(document.getElementById('rata-aktualna').value);
 
-            // BEZ NADPŁATY
-            const simBez = symuluj(saldo, stopa_m, rataAkt);
-            const odsetkiBez = simBez.sumaOdsetek;
-            const miesiąceBez = simBez.miesiace;
-            const sumaBez = saldo + odsetkiBez;
+    // Niekompletne lub nieprawidłowe dane — nie pokazuj komunikatów
+    if (!saldo || saldo <= 0 || !oprocRoczne || oprocRoczne <= 0 || !okresLat || okresLat <= 0 || !rataAkt || rataAkt <= 0) {
+        alertBox.style.display = 'none';
+        btn.disabled = false;
+        return;
+    }
 
-            // Z NADPŁATĄ
-            const noweKapital = saldo - nadplata;
-            let rataPoVal, odsetkiPo, miesiacePo, sumaPo;
+    const stopa_m = oprocRoczne / 12;
+    const n       = okresLat * 12;
+    const minRata = rataMinimalna(saldo, stopa_m);
 
-            if (cel === 'skrocenie') {
-                const simPo = symuluj(noweKapital, stopa_m, rataAkt);
-                rataPoVal = rataAkt;
-                odsetkiPo = simPo.sumaOdsetek;
-                miesiacePo = simPo.miesiace;
-                sumaPo = noweKapital + odsetkiPo + nadplata;
-            } else {
-                miesiacePo = n;
-                rataPoVal = rataRowna(noweKapital, stopa_m, n);
-                const simPo = symuluj(noweKapital, stopa_m, rataPoVal);
-                odsetkiPo = simPo.sumaOdsetek;
-                sumaPo = noweKapital + odsetkiPo + nadplata;
-            }
+    // 1. Rata nie pokrywa nawet odsetek — kredyt nigdy się nie spłaci
+    if (rataAkt <= minRata) {
+        alertBox.className   = 'kalk-alert kalk-alert--error';
+        alertBox.innerHTML   = '<strong>Kredyt nigdy nie zostanie spłacony</strong>' +
+            'Podana rata (' + fmt(rataAkt) + ') nie pokrywa nawet odsetek naliczanych miesięcznie od aktualnego salda (' + fmt(minRata) + '). ' +
+            'Przy takiej racie saldo kredytu nie zmniejszy się — sprawdź wysokość raty, salda lub oprocentowania.';
+        alertBox.style.display = 'block';
+        btn.disabled = true;
+        return;
+    }
 
-            const oszczednosc = sumaBez - sumaPo;
+    // 2. Rata pokrywa odsetki, ale czy wystarczy na spłatę w zadanym okresie?
+    const sim = symuluj(saldo, stopa_m, rataAkt);
 
-            // WYNIKI
-            document.getElementById('r-oszczednosc').textContent = fmt(oszczednosc);
-            document.getElementById('r-rata-przed').textContent = Math.round(rataAkt).toLocaleString('pl-PL');
+    if (sim.miesiace > n) {
+        const rataPotrzebna = rataRowna(saldo, stopa_m, n);
+        const czasSplaty = sim.miesiace >= 600 ? 'ponad 50 lat' : fmtLat(sim.miesiace);
 
-            if (cel === 'skrocenie') {
-                const skrocMies = miesiąceBez - miesiacePo;
-                document.getElementById('r-label-po').textContent = 'Rata po nadpłacie';
-                document.getElementById('r-rata-po').textContent = Math.round(rataPoVal).toLocaleString('pl-PL');
-                document.getElementById('r-sub-po').textContent = 'PLN (bez zmian)';
-                document.getElementById('r-label-okres').textContent = 'Skrócenie okresu';
-                document.getElementById('r-okres-po').textContent = fmtLat(skrocMies);
-                document.getElementById('r-sub-okres').textContent = fmtLat(miesiąceBez) + ' → ' + fmtLat(miesiacePo);
-            } else {
-                const obnizenie = rataAkt - rataPoVal;
-                document.getElementById('r-label-po').textContent = 'Nowa rata';
-                document.getElementById('r-rata-po').textContent = Math.round(rataPoVal).toLocaleString('pl-PL');
-                document.getElementById('r-sub-po').textContent = 'PLN (obniżona o ' + Math.round(obnizenie).toLocaleString('pl-PL') + ' zł)';
-                document.getElementById('r-label-okres').textContent = 'Oszczędność na odsetkach';
-                document.getElementById('r-okres-po').textContent = fmt(oszczednosc);
-                document.getElementById('r-sub-okres').textContent = 'mniejsza suma odsetek';
-            }
+        alertBox.className = 'kalk-alert kalk-alert--warning';
+        alertBox.innerHTML = '<strong>Uwaga</strong>' +
+            'Przy tej racie kredyt spłacisz w ' + czasSplaty + ', nie w ' + okresLat + ' lat. ' +
+            'Rata potrzebna do spłaty w ' + okresLat + ' lat wynosi ' + fmt(rataPotrzebna) + '. ' +
+            'Obliczenia uwzględniają Twój rzeczywisty harmonogram.';
+        alertBox.style.display = 'block';
+        btn.disabled = false;
+        return;
+    }
 
-            document.getElementById('t-okres-przed').textContent = fmtLat(miesiąceBez);
-            document.getElementById('t-okres-po').textContent = fmtLat(miesiacePo);
-            document.getElementById('t-odsetki-przed').textContent = fmt(odsetkiBez);
-            document.getElementById('t-odsetki-po').textContent = fmt(odsetkiPo);
-            document.getElementById('t-suma-przed').textContent = fmt(sumaBez);
-            document.getElementById('t-suma-po').textContent = fmt(sumaPo);
-            document.getElementById('t-rata-przed').textContent = fmt(rataAkt) + '/mies.';
-            document.getElementById('t-rata-po').textContent = fmt(rataPoVal) + '/mies.';
+    // Wszystko w porządku
+    alertBox.style.display = 'none';
+    btn.disabled = false;
+}
 
-            const recTitle = document.getElementById('rec-title');
-            const recText = document.getElementById('rec-text');
-            if (cel === 'skrocenie') {
-                const skrocMies = miesiąceBez - miesiacePo;
-                recTitle.textContent = 'Nadpłata skraca kredyt o ' + fmtLat(skrocMies);
-                recText.textContent = 'Wpłacając jednorazowo ' + fmt(nadplata) + ' na poczet kapitału i zachowując dotychczasową ratę ' + fmt(rataAkt) + ', zakończysz spłatę ' + fmtLat(skrocMies) + ' wcześniej. Łączna oszczędność na odsetkach wyniesie ' + fmt(oszczednosc) + '. Warto sprawdzić w banku, czy w Twoim przypadku nie obowiązuje prowizja za wcześniejszą spłatę.';
-            } else {
-                const obnizenie = rataAkt - rataPoVal;
-                recTitle.textContent = 'Rata obniży się o ' + fmt(obnizenie) + ' miesięcznie';
-                recText.textContent = 'Wpłacając jednorazowo ' + fmt(nadplata) + ' i zachowując dotychczasowy okres kredytowania (' + fmtLat(n) + '), Twoja miesięczna rata zmniejszy się z ' + fmt(rataAkt) + ' do ' + fmt(rataPoVal) + '. Łączna oszczędność na odsetkach wyniesie ' + fmt(oszczednosc) + '. To rozwiązanie poprawia bieżącą płynność finansową.';
-            }
+['saldo', 'oprocentowanie', 'okres', 'rata-aktualna'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', walidujRate);
+});
 
-            const wyniki = document.getElementById('wyniki');
-            wyniki.classList.add('visible');
-            wyniki.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    </script>
+walidujRate();
+// --------------------------------------------------------------------------
+
+function oblicz() {
+    const saldo       = parseFloat(document.getElementById('saldo').value);
+    const oprocRoczne = parseFloat(document.getElementById('oprocentowanie').value) / 100;
+    const okresLat    = parseInt(document.getElementById('okres').value);
+    const rataAkt     = parseFloat(document.getElementById('rata-aktualna').value);
+    const nadplata    = parseFloat(document.getElementById('nadplata').value);
+    const cel         = document.getElementById('cel-nadplaty').value;
+
+    if (!saldo || !oprocRoczne || !okresLat || !rataAkt || !nadplata) {
+        alert('Wypełnij wszystkie pola.');
+        return;
+    }
+    if (nadplata >= saldo) {
+        alert('Kwota nadpłaty nie może być wyższa niż saldo kredytu.');
+        return;
+    }
+
+    const stopa_m = oprocRoczne / 12;
+    const n = okresLat * 12;
+    const minRata = rataMinimalna(saldo, stopa_m);
+
+    if (rataAkt <= minRata) {
+        alert('Podana rata (' + Math.round(rataAkt).toLocaleString('pl-PL') + ' zł) jest za niska — nie pokrywa nawet odsetek od aktualnego salda (' + Math.round(minRata).toLocaleString('pl-PL') + ' zł). Sprawdź dane.');
+        return;
+    }
+
+    // BEZ NADPŁATY
+    const simBez = symuluj(saldo, stopa_m, rataAkt);
+    const odsetkiBez  = simBez.sumaOdsetek;
+    const miesiąceBez = simBez.miesiace;
+    const sumaBez     = saldo + odsetkiBez;
+
+    // Z NADPŁATĄ
+    const noweKapital = saldo - nadplata;
+    let rataPoVal, odsetkiPo, miesiacePo, sumaPo;
+
+    if (cel === 'skrocenie') {
+        const simPo = symuluj(noweKapital, stopa_m, rataAkt);
+        rataPoVal  = rataAkt;
+        odsetkiPo  = simPo.sumaOdsetek;
+        miesiacePo = simPo.miesiace;
+        sumaPo     = noweKapital + odsetkiPo + nadplata;
+    } else {
+        miesiacePo = n;
+        rataPoVal  = rataRowna(noweKapital, stopa_m, n);
+        const simPo = symuluj(noweKapital, stopa_m, rataPoVal);
+        odsetkiPo  = simPo.sumaOdsetek;
+        sumaPo     = noweKapital + odsetkiPo + nadplata;
+    }
+
+    const oszczednosc = sumaBez - sumaPo;
+
+    // WYNIKI
+    document.getElementById('r-oszczednosc').textContent = fmt(oszczednosc);
+    document.getElementById('r-rata-przed').textContent  = Math.round(rataAkt).toLocaleString('pl-PL');
+
+    if (cel === 'skrocenie') {
+        const skrocMies = miesiąceBez - miesiacePo;
+        document.getElementById('r-label-po').textContent    = 'Rata po nadpłacie';
+        document.getElementById('r-rata-po').textContent     = Math.round(rataPoVal).toLocaleString('pl-PL');
+        document.getElementById('r-sub-po').textContent      = 'PLN (bez zmian)';
+        document.getElementById('r-label-okres').textContent = 'Skrócenie okresu';
+        document.getElementById('r-okres-po').textContent    = fmtLat(skrocMies);
+        document.getElementById('r-sub-okres').textContent   = fmtLat(miesiąceBez) + ' → ' + fmtLat(miesiacePo);
+    } else {
+        const obnizenie = rataAkt - rataPoVal;
+        document.getElementById('r-label-po').textContent    = 'Nowa rata';
+        document.getElementById('r-rata-po').textContent     = Math.round(rataPoVal).toLocaleString('pl-PL');
+        document.getElementById('r-sub-po').textContent      = 'PLN (obniżona o ' + Math.round(obnizenie).toLocaleString('pl-PL') + ' zł)';
+        document.getElementById('r-label-okres').textContent = 'Oszczędność na odsetkach';
+        document.getElementById('r-okres-po').textContent    = fmt(oszczednosc);
+        document.getElementById('r-sub-okres').textContent   = 'mniejsza suma odsetek';
+    }
+
+    document.getElementById('t-okres-przed').textContent   = fmtLat(miesiąceBez);
+    document.getElementById('t-okres-po').textContent      = fmtLat(miesiacePo);
+    document.getElementById('t-odsetki-przed').textContent = fmt(odsetkiBez);
+    document.getElementById('t-odsetki-po').textContent    = fmt(odsetkiPo);
+    document.getElementById('t-suma-przed').textContent    = fmt(sumaBez);
+    document.getElementById('t-suma-po').textContent       = fmt(sumaPo);
+    document.getElementById('t-rata-przed').textContent    = fmt(rataAkt) + '/mies.';
+    document.getElementById('t-rata-po').textContent       = fmt(rataPoVal) + '/mies.';
+
+    const recTitle = document.getElementById('rec-title');
+    const recText  = document.getElementById('rec-text');
+    if (cel === 'skrocenie') {
+        const skrocMies = miesiąceBez - miesiacePo;
+        recTitle.textContent = 'Nadpłata skraca kredyt o ' + fmtLat(skrocMies);
+        recText.textContent  = 'Wpłacając jednorazowo ' + fmt(nadplata) + ' na poczet kapitału i zachowując dotychczasową ratę ' + fmt(rataAkt) + ', zakończysz spłatę ' + fmtLat(skrocMies) + ' wcześniej. Łączna oszczędność na odsetkach wyniesie ' + fmt(oszczednosc) + '. Warto sprawdzić w banku, czy w Twoim przypadku nie obowiązuje prowizja za wcześniejszą spłatę.';
+    } else {
+        const obnizenie = rataAkt - rataPoVal;
+        recTitle.textContent = 'Rata obniży się o ' + fmt(obnizenie) + ' miesięcznie';
+        recText.textContent  = 'Wpłacając jednorazowo ' + fmt(nadplata) + ' i zachowując dotychczasowy okres kredytowania (' + fmtLat(n) + '), Twoja miesięczna rata zmniejszy się z ' + fmt(rataAkt) + ' do ' + fmt(rataPoVal) + '. Łączna oszczędność na odsetkach wyniesie ' + fmt(oszczednosc) + '. To rozwiązanie poprawia bieżącą płynność finansową.';
+    }
+
+    const wyniki = document.getElementById('wyniki');
+    wyniki.classList.add('visible');
+    wyniki.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
 
 </body>
-
 </html>
