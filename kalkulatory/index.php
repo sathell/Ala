@@ -153,8 +153,18 @@
                         </div>
                     </a>
 
-                    <div class="calc-item calc-item--soon">
+                    <a class="calc-item" href="/kalkulatory/kalkulator-stale-nadplaty/">
                         <div class="calc-item-num">03</div>
+                        <div class="calc-item-body">
+                            <div class="calc-item-title">Kalkulator stałych nadpłat kredytu hipotecznego</div>
+                            <p class="calc-item-lead">Nie musisz znać aktualnego salda. Podaj kwotę kredytu, okres, oprocentowanie i miesiąc uruchomienia — resztę, łącznie z dzisiejszym saldem, policzy kalkulator na podstawie pełnego harmonogramu spłat.
+                            </p>
+                            <span class="calc-item-more">Otwórz kalkulator →</span>
+                        </div>
+                    </a>
+
+                    <div class="calc-item calc-item--soon">
+                        <div class="calc-item-num">04</div>
                         <div class="calc-item-body">
                             <div class="calc-item-title">Kalkulator zdolności kredytowej <span
                                     class="badge-soon">Wkrótce</span></div>
@@ -164,7 +174,7 @@
                     </div>
 
                     <div class="calc-item calc-item--soon">
-                        <div class="calc-item-num">04</div>
+                        <div class="calc-item-num">05</div>
                         <div class="calc-item-body">
                             <div class="calc-item-title">Kalkulator refinansowania kredytu <span
                                     class="badge-soon">Wkrótce</span></div>
